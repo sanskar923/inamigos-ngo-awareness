@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="InAmigos — Together We Create Change. An NGO dedicated to education, community support, environment, and youth empowerment across communities worldwide.">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <meta name="keywords" content="NGO, charity, volunteer, social impact, community, education, environment, InAmigos">
+  <meta name="author" content="InAmigos Foundation">
+
+  <!-- Open Graph / Social -->
+  <meta property="og:title" content="InAmigos — Together We Create Change">
+  <meta property="og:description" content="Join InAmigos in making a difference. Education, community support, environment, and youth empowerment.">
+  <meta property="og:type" content="website">
+
+  <title>InAmigos — Together We Create Change</title>
+
+  <!-- Google Fonts: Poppins + Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" media="print" onload="this.media='all'">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ==================== PRELOADER ==================== -->
+  <div class="preloader" id="preloader" aria-hidden="true">
+    <div class="preloader-content">
+      <div class="preloader-logo">InAmigos</div>
+      <div class="preloader-spinner"></div>
+    </div>
+  </div>
+
+  <!-- ==================== SCROLL TO TOP BUTTON ==================== -->
+  <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- ==================== STICKY NAVIGATION ==================== -->
+  <header class="navbar" id="navbar" role="banner">
+    <nav class="nav-container" aria-label="Main navigation">
+      <a href="#hero" class="nav-logo">In<span>Amigos</span></a>
+      <div class="nav-overlay" id="navOverlay" aria-hidden="true"></div>
+      <ul class="nav-links" id="navLinks" role="menubar">
+        <li role="none"><a href="#hero" role="menuitem" class="nav-link active">Home</a></li>
+        <li role="none"><a href="#about" role="menuitem" class="nav-link">About</a></li>
+        <li role="none"><a href="#projects" role="menuitem" class="nav-link">Projects</a></li>
+        <li role="none"><a href="#impact" role="menuitem" class="nav-link">Impact</a></li>
+        <li role="none"><a href="#gallery" role="menuitem" class="nav-link">Gallery</a></li>
+        <li role="none"><a href="#testimonials" role="menuitem" class="nav-link">Stories</a></li>
+        <li role="none"><a href="#volunteer" role="menuitem" class="nav-link">Join Us</a></li>
+        <li role="none"><a href="#contact" role="menuitem" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main id="main-content">
+
+    <!-- ==================== 1. HERO SECTION ==================== -->
+    <section class="hero" id="hero" aria-label="Hero banner">
+      <div class="hero-overlay"></div>
+      <!-- Floating particles canvas -->
+      <canvas id="heroCanvas" class="hero-canvas" aria-hidden="true"></canvas>
+      <div class="hero-content">
+        <span class="hero-badge reveal">🌍 Making a Difference Since 2015</span>
+        <h1 class="hero-title reveal">In<span>Amigos</span></h1>
+        <p class="hero-tagline reveal">Together We Create Change</p>
+        <p class="hero-mission reveal">
+          Empowering communities through education, sustainable development, and collective action.
+          Every small act of kindness ripples into waves of transformation.
+        </p>
+        <div class="hero-btns reveal">
+          <a href="#volunteer" class="btn btn-primary">
+            <i class="fa-solid fa-hand-holding-heart"></i> Join Us
+          </a>
+          <a href="#volunteer" class="btn btn-outline">
+            <i class="fa-solid fa-user-plus"></i> Become a Volunteer
+          </a>
+        </div>
+      </div>
+      <div class="scroll-indicator" aria-hidden="true">
+        <span>Scroll</span>
+        <div class="scroll-mouse">
+          <div class="scroll-wheel"></div>
+        </div>
+        <i class="fa-solid fa-chevron-down scroll-chevron"></i>
+      </div>
+    </section>
+
+    <!-- SVG Wave Divider -->
+    <div class="wave-divider" aria-hidden="true">
+      <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+        <path d="M0,60 C240,120 480,0 720,60 C960,120 1200,0 1440,60 L1440,120 L0,120 Z" fill="currentColor"/>
+      </svg>
+    </div>
+
+    <!-- ==================== 2. ABOUT NGO SECTION ==================== -->
+    <section class="about section-padding" id="about" aria-label="About InAmigos">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Who We Are</span>
+          <h2 class="section-title">About <span>InAmigos</span></h2>
+          <p class="section-subtitle">
+            A movement of compassionate individuals dedicated to creating lasting change in underserved communities.
+          </p>
+        </div>
+        <div class="about-grid">
+          <div class="about-image reveal">
+            <div class="about-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1531206714923-8c4c8b4043fe?w=600&q=80" alt="InAmigos volunteers working together in a community" loading="lazy">
+              <div class="about-exp-badge">
+                <span class="exp-number">10+</span>
+                <span class="exp-label">Years of<br>Service</span>
+              </div>
+            </div>
+          </div>
+          <div class="about-content reveal">
+            <h3>Our Mission</h3>
+            <p>
+              At InAmigos, we believe that sustainable change begins at the grassroots level. Our mission is to empower marginalized communities through quality education, healthcare access, environmental stewardship, and economic opportunity. We work hand-in-hand with local leaders to build self-sustaining ecosystems of growth and development.
+            </p>
+            <h3>Our Vision</h3>
+            <p>
+              We envision a world where every individual, regardless of their background, has access to the resources and opportunities needed to live a dignified, fulfilling life. A world where communities thrive together, leaving no one behind.
+            </p>
+            <div class="about-values">
+              <div class="value-item">
+                <i class="fa-solid fa-heart-circle-check"></i>
+                <div>
+                  <strong>Compassion</strong>
+                  <span>Driven by empathy and genuine care for every life we touch.</span>
+                </div>
+              </div>
+              <div class="value-item">
+                <i class="fa-solid fa-handshake-angle"></i>
+                <div>
+                  <strong>Integrity</strong>
+                  <span>Transparent, accountable, and honest in every action we take.</span>
+                </div>
+              </div>
+              <div class="value-item">
+                <i class="fa-solid fa-people-group"></i>
+                <div>
+                  <strong>Collaboration</strong>
+                  <span>Together with communities, partners, and volunteers for impact.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Core Values Cards -->
+        <div class="values-cards reveal">
+          <div class="value-card">
+            <div class="value-card-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+            <h4>Education</h4>
+            <p>Providing quality learning resources, scholarships, and mentorship programs to underprivileged children and youth.</p>
+          </div>
+          <div class="value-card">
+            <div class="value-card-icon"><i class="fa-solid fa-hand-holding-heart"></i></div>
+            <h4>Community Support</h4>
+            <p>Building resilient communities through food security, shelter programs, and social welfare initiatives.</p>
+          </div>
+          <div class="value-card">
+            <div class="value-card-icon"><i class="fa-solid fa-leaf"></i></div>
+            <h4>Environment</h4>
+            <p>Promoting sustainability through tree plantation drives, clean water projects, and environmental awareness.</p>
+          </div>
+          <div class="value-card">
+            <div class="value-card-icon"><i class="fa-solid fa-person-running"></i></div>
+            <h4>Youth Empowerment</h4>
+            <p>Equipping young leaders with skills, training, and opportunities to become agents of change in their communities.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SVG Wave Divider -->
+    <div class="wave-divider wave-flip" aria-hidden="true">
+      <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+        <path d="M0,60 C240,120 480,0 720,60 C960,120 1200,0 1440,60 L1440,120 L0,120 Z" fill="currentColor"/>
+      </svg>
+    </div>
+
+    <!-- ==================== 3. ONGOING PROJECTS SECTION ==================== -->
+    <section class="projects section-padding" id="projects" aria-label="Ongoing Projects">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">What We Do</span>
+          <h2 class="section-title">Ongoing <span>Projects</span></h2>
+          <p class="section-subtitle">
+            Our active initiatives are making real, measurable impact in communities every single day.
+          </p>
+        </div>
+        <div class="projects-grid">
+          <!-- Project 1: Education Drive -->
+          <article class="project-card reveal">
+            <div class="project-img">
+              <img src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=600&q=80" alt="Education Drive — children learning with books" loading="lazy">
+              <div class="project-overlay"></div>
+            </div>
+            <div class="project-info">
+              <span class="project-cat">Education</span>
+              <h3>Education Drive</h3>
+              <p>Bringing quality education to over 2,000 children in remote villages through mobile classrooms, digital labs, and trained educators.</p>
+              <a href="#volunteer" class="btn btn-sm">Read More <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </article>
+
+          <!-- Project 2: Food Donation Campaign -->
+          <article class="project-card reveal">
+            <div class="project-img">
+              <img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=600&q=80" alt="Food Donation Campaign" loading="lazy">
+              <div class="project-overlay"></div>
+            </div>
+            <div class="project-info">
+              <span class="project-cat">Food Security</span>
+              <h3>Food Donation Campaign</h3>
+              <p>Distributing nutritious meals to 5,000+ families monthly. Fighting hunger with dignity through community kitchen networks.</p>
+              <a href="#volunteer" class="btn btn-sm">Read More <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </article>
+
+          <!-- Project 3: Women Empowerment -->
+          <article class="project-card reveal">
+            <div class="project-img">
+              <img src="https://images.unsplash.com/photo-1573497019940-1c28c88e3c1b?w=600&q=80" alt="Women Empowerment Initiative" loading="lazy">
+              <div class="project-overlay"></div>
+            </div>
+            <div class="project-info">
+              <span class="project-cat">Empowerment</span>
+              <h3>Women Empowerment Initiative</h3>
+              <p>Skill development, microfinance access, and entrepreneurship training for 1,500+ women to achieve financial independence.</p>
+              <a href="#volunteer" class="btn btn-sm">Read More <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </article>
+
+          <!-- Project 4: Tree Plantation -->
+          <article class="project-card reveal">
+            <div class="project-img">
+              <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=600&q=80" alt="Tree Plantation Program" loading="lazy">
+              <div class="project-overlay"></div>
+            </div>
+            <div class="project-info">
+              <span class="project-cat">Environment</span>
+              <h3>Tree Plantation Program</h3>
+              <p>Over 50,000 trees planted across 50 villages. Restoring green cover and creating sustainable livelihoods through agroforestry.</p>
+              <a href="#volunteer" class="btn btn-sm">Read More <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </article>
+
+          <!-- Project 5: Rural Development -->
+          <article class="project-card reveal">
+            <div class="project-img">
+              <img src="https://images.unsplash.com/photo-1593113630400-6f66b4f4309e?w=600&q=80" alt="Rural Development Project" loading="lazy">
+              <div class="project-overlay"></div>
+            </div>
+            <div class="project-info">
+              <span class="project-cat">Development</span>
+              <h3>Rural Development Project</h3>
+              <p>Building infrastructure, sanitation facilities, and clean water access in 30+ underserved rural communities.</p>
+              <a href="#volunteer" class="btn btn-sm">Read More <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </article>
+
+          <!-- Project 6: Healthcare Awareness -->
+          <article class="project-card reveal">
+            <div class="project-img">
+              <img src="https://images.unsplash.com/photo-1576091160550-41e9a161870b?w=600&q=80" alt="Healthcare Awareness Campaign" loading="lazy">
+              <div class="project-overlay"></div>
+            </div>
+            <div class="project-info">
+              <span class="project-cat">Healthcare</span>
+              <h3>Healthcare Awareness Campaign</h3>
+              <p>Free health checkup camps, vaccination drives, and maternal care programs reaching 10,000+ individuals annually.</p>
+              <a href="#volunteer" class="btn btn-sm">Read More <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 4. SOCIAL IMPACT SECTION ==================== -->
+    <section class="impact section-padding" id="impact" aria-label="Social Impact Statistics">
+      <!-- Background canvas for particles -->
+      <canvas id="impactCanvas" class="impact-canvas" aria-hidden="true"></canvas>
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label section-label-light">Our Reach</span>
+          <h2 class="section-title section-title-light">Social <span>Impact</span></h2>
+          <p class="section-subtitle section-subtitle-light">
+            Numbers that reflect our commitment and the trust of communities we serve.
+          </p>
+        </div>
+        <div class="impact-grid">
+          <div class="impact-card reveal">
+            <div class="impact-icon"><i class="fa-solid fa-heart-pulse"></i></div>
+            <div class="impact-number" data-target="10000">0</div>
+            <span class="impact-suffix">+</span>
+            <p class="impact-label">Lives Impacted</p>
+          </div>
+          <div class="impact-card reveal">
+            <div class="impact-icon"><i class="fa-solid fa-people-arrows"></i></div>
+            <div class="impact-number" data-target="500">0</div>
+            <span class="impact-suffix">+</span>
+            <p class="impact-label">Active Volunteers</p>
+          </div>
+          <div class="impact-card reveal">
+            <div class="impact-icon"><i class="fa-solid fa-bullhorn"></i></div>
+            <div class="impact-number" data-target="100">0</div>
+            <span class="impact-suffix">+</span>
+            <p class="impact-label">Campaigns Run</p>
+          </div>
+          <div class="impact-card reveal">
+            <div class="impact-icon"><i class="fa-solid fa-tree-city"></i></div>
+            <div class="impact-number" data-target="50">0</div>
+            <span class="impact-suffix">+</span>
+            <p class="impact-label">Villages Reached</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 5. GALLERY SECTION ==================== -->
+    <section class="gallery section-padding" id="gallery" aria-label="Photo Gallery">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Moments</span>
+          <h2 class="section-title">Our <span>Gallery</span></h2>
+          <p class="section-subtitle">
+            Capturing the spirit of service, one frame at a time. These are the faces of change.
+          </p>
+        </div>
+        <div class="gallery-grid" id="galleryGrid">
+          <div class="gallery-item reveal" data-src="https://images.unsplash.com/photo-1559027612-c17b4e5b6b8c?w=1200&q=80">
+            <img src="https://images.unsplash.com/photo-1559027612-c17b4e5b6b8c?w=600&q=80" alt="Volunteer community work" loading="lazy">
+            <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+          </div>
+          <div class="gallery-item reveal" data-src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=1200&q=80">
+            <img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=600&q=80" alt="Donation drive event" loading="lazy">
+            <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+          </div>
+          <div class="gallery-item reveal" data-src="https://images.unsplash.com/photo-1544027993-37dbfe43562a?w=1200&q=80">
+            <img src="https://images.unsplash.com/photo-1544027993-37dbfe43562a?w=600&q=80" alt="Community gathering event" loading="lazy">
+            <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+          </div>
+          <div class="gallery-item reveal" data-src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=1200&q=80">
+            <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=600&q=80" alt="Environmental tree planting" loading="lazy">
+            <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+          </div>
+          <div class="gallery-item reveal" data-src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=1200&q=80">
+            <img src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=600&q=80" alt="Education program for children" loading="lazy">
+            <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+          </div>
+          <div class="gallery-item reveal" data-src="https://images.unsplash.com/photo-1531206714923-8c4c8b4043fe?w=1200&q=80">
+            <img src="https://images.unsplash.com/photo-1531206714923-8c4c8b4043fe?w=600&q=80" alt="Volunteers in action" loading="lazy">
+            <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+          </div>
+          <div class="gallery-item reveal" data-src="https://images.unsplash.com/photo-1576091160550-41e9a161870b?w=1200&q=80">
+            <img src="https://images.unsplash.com/photo-1576091160550-41e9a161870b?w=600&q=80" alt="Healthcare awareness camp" loading="lazy">
+            <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+          </div>
+          <div class="gallery-item reveal" data-src="https://images.unsplash.com/photo-1593113630400-6f66b4f4309e?w=1200&q=80">
+            <img src="https://images.unsplash.com/photo-1593113630400-6f66b4f4309e?w=600&q=80" alt="Rural community support" loading="lazy">
+            <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Lightbox -->
+      <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-label="Image preview">
+        <button class="lightbox-close" aria-label="Close preview"><i class="fa-solid fa-xmark"></i></button>
+        <button class="lightbox-prev" aria-label="Previous image"><i class="fa-solid fa-chevron-left"></i></button>
+        <button class="lightbox-next" aria-label="Next image"><i class="fa-solid fa-chevron-right"></i></button>
+        <div class="lightbox-content">
+          <img src="" alt="" id="lightboxImg">
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 6. TESTIMONIAL SECTION ==================== -->
+    <section class="testimonials section-padding" id="testimonials" aria-label="Testimonials">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Testimonials</span>
+          <h2 class="section-title">Voices of <span>Change</span></h2>
+          <p class="section-subtitle">
+            Hear from the people whose lives have been transformed by the power of community and compassion.
+          </p>
+        </div>
+        <div class="testimonial-carousel reveal" id="testimonialCarousel">
+          <div class="testimonial-track" id="testimonialTrack">
+            <!-- Slide 1 -->
+            <div class="testimonial-slide">
+              <div class="testimonial-card">
+                <div class="testimonial-quote"><i class="fa-solid fa-quote-left"></i></div>
+                <p class="testimonial-text">
+                  InAmigos didn't just give me an education — they gave me hope. Today, I am the first person in my family to attend university, and it's all because someone believed in me.
+                </p>
+                <div class="testimonial-stars">
+                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+                <div class="testimonial-author">
+                  <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&q=80" alt="Priya Sharma" loading="lazy">
+                  <div>
+                    <strong>Priya Sharma</strong>
+                    <span>Education Program Beneficiary</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="testimonial-slide">
+              <div class="testimonial-card">
+                <div class="testimonial-quote"><i class="fa-solid fa-quote-left"></i></div>
+                <p class="testimonial-text">
+                  Volunteering with InAmigos has been the most fulfilling experience of my life. Every weekend spent teaching children or planting trees reminds me that small actions create big change.
+                </p>
+                <div class="testimonial-stars">
+                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+                <div class="testimonial-author">
+                  <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80" alt="Rahul Mehta" loading="lazy">
+                  <div>
+                    <strong>Rahul Mehta</strong>
+                    <span>Active Volunteer</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Slide 3 -->
+            <div class="testimonial-slide">
+              <div class="testimonial-card">
+                <div class="testimonial-quote"><i class="fa-solid fa-quote-left"></i></div>
+                <p class="testimonial-text">
+                  The women empowerment program gave me skills and confidence to start my own tailoring business. Now I support my family and employ three other women from my village.
+                </p>
+                <div class="testimonial-stars">
+                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+                <div class="testimonial-author">
+                  <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&q=80" alt="Anita Devi" loading="lazy">
+                  <div>
+                    <strong>Anita Devi</strong>
+                    <span>Entrepreneurship Graduate</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Slide 4 -->
+            <div class="testimonial-slide">
+              <div class="testimonial-card">
+                <div class="testimonial-quote"><i class="fa-solid fa-quote-left"></i></div>
+                <p class="testimonial-text">
+                  Our village had no clean water for decades. InAmigos built a well and filtration system that now serves 200 families. They didn't just give us water — they gave us health and dignity.
+                </p>
+                <div class="testimonial-stars">
+                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+                <div class="testimonial-author">
+                  <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&q=80" alt="Mohan Lal" loading="lazy">
+                  <div>
+                    <strong>Mohan Lal</strong>
+                    <span>Community Leader</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-controls">
+            <button class="testimonial-btn prev" id="testimonialPrev" aria-label="Previous testimonial"><i class="fa-solid fa-chevron-left"></i></button>
+            <div class="testimonial-dots" id="testimonialDots"></div>
+            <button class="testimonial-btn next" id="testimonialNext" aria-label="Next testimonial"><i class="fa-solid fa-chevron-right"></i></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 7. VOLUNTEER / JOIN US SECTION ==================== -->
+    <section class="volunteer section-padding" id="volunteer" aria-label="Join as a Volunteer">
+      <div class="container">
+        <div class="volunteer-grid">
+          <div class="volunteer-content reveal">
+            <span class="section-label">Get Involved</span>
+            <h2 class="section-title">Become a <span>Change Maker</span> Today</h2>
+            <p class="volunteer-text">
+              Your time, skills, and passion can transform lives. Join a community of 500+ dedicated volunteers working to create a brighter, more equitable future for all.
+            </p>
+            <ul class="volunteer-benefits">
+              <li><i class="fa-solid fa-circle-check"></i> Make a tangible difference in real communities</li>
+              <li><i class="fa-solid fa-circle-check"></i> Develop new skills and leadership experience</li>
+              <li><i class="fa-solid fa-circle-check"></i> Connect with like-minded changemakers</li>
+              <li><i class="fa-solid fa-circle-check"></i> Receive certification and recognition</li>
+              <li><i class="fa-solid fa-circle-check"></i> Flexible opportunities — online and on-ground</li>
+            </ul>
+          </div>
+          <div class="volunteer-form-wrapper reveal">
+            <form class="volunteer-form" id="volunteerForm" novalidate>
+              <h3>Register as a Volunteer</h3>
+              <div class="form-group">
+                <label for="volName">Full Name <span>*</span></label>
+                <div class="input-wrapper">
+                  <i class="fa-solid fa-user"></i>
+                  <input type="text" id="volName" name="name" placeholder="Enter your full name" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="volEmail">Email Address <span>*</span></label>
+                <div class="input-wrapper">
+                  <i class="fa-solid fa-envelope"></i>
+                  <input type="email" id="volEmail" name="email" placeholder="Enter your email" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="volPhone">Phone Number</label>
+                <div class="input-wrapper">
+                  <i class="fa-solid fa-phone"></i>
+                  <input type="tel" id="volPhone" name="phone" placeholder="Enter your phone number">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="volMessage">Why do you want to join? <span>*</span></label>
+                <textarea id="volMessage" name="message" rows="3" placeholder="Tell us what drives you..." required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-block">
+                <i class="fa-solid fa-paper-plane"></i> Submit Application
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 8. EVENTS & CAMPAIGNS SECTION ==================== -->
+    <section class="events section-padding" id="events" aria-label="Events and Campaigns">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Stay Updated</span>
+          <h2 class="section-title">Events & <span>Campaigns</span></h2>
+          <p class="section-subtitle">
+            Join our upcoming initiatives and be part of the movement for positive change.
+          </p>
+        </div>
+        <div class="timeline reveal">
+          <div class="timeline-line" aria-hidden="true"></div>
+
+          <!-- Event 1 -->
+          <div class="timeline-item reveal">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-date">June 15, 2026</div>
+            <div class="timeline-card">
+              <div class="timeline-card-header">
+                <span class="event-badge awareness">Awareness</span>
+                <h4>Community Health Awareness Drive</h4>
+              </div>
+              <p>A large-scale health screening and awareness campaign covering diabetes, hypertension, and maternal health across 10 villages.</p>
+              <div class="timeline-meta">
+                <span><i class="fa-solid fa-location-dot"></i> Rural Health Centers, District 4</span>
+                <span><i class="fa-solid fa-clock"></i> 9:00 AM — 4:00 PM</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Event 2 -->
+          <div class="timeline-item reveal">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-date">July 2, 2026</div>
+            <div class="timeline-card">
+              <div class="timeline-card-header">
+                <span class="event-badge cleanup">Environment</span>
+                <h4>Cleanliness & Green Campaign</h4>
+              </div>
+              <p>A mega cleanliness drive combined with tree plantation. Target: plant 5,000 saplings and clean 15 kilometers of public spaces.</p>
+              <div class="timeline-meta">
+                <span><i class="fa-solid fa-location-dot"></i> City Park & Riverside Area</span>
+                <span><i class="fa-solid fa-clock"></i> 7:00 AM — 12:00 PM</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Event 3 -->
+          <div class="timeline-item reveal">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-date">July 20, 2026</div>
+            <div class="timeline-card">
+              <div class="timeline-card-header">
+                <span class="event-badge workshop">Workshop</span>
+                <h4>Digital Literacy Workshop</h4>
+              </div>
+              <p>Free digital skills training for 200+ youth. Modules include basic computing, internet safety, and online freelancing fundamentals.</p>
+              <div class="timeline-meta">
+                <span><i class="fa-solid fa-location-dot"></i> Community Learning Center</span>
+                <span><i class="fa-solid fa-clock"></i> 10:00 AM — 3:00 PM</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Event 4 -->
+          <div class="timeline-item reveal">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-date">August 5, 2026</div>
+            <div class="timeline-card">
+              <div class="timeline-card-header">
+                <span class="event-badge fundraiser">Fundraiser</span>
+                <h4>Hope Gala — Annual Fundraising Event</h4>
+              </div>
+              <p>An evening of inspiration, performances, and community spirit. All proceeds support our education and healthcare programs.</p>
+              <div class="timeline-meta">
+                <span><i class="fa-solid fa-location-dot"></i> Grand Convention Hall, Downtown</span>
+                <span><i class="fa-solid fa-clock"></i> 6:00 PM — 10:00 PM</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 9. CONTACT SECTION ==================== -->
+    <section class="contact section-padding" id="contact" aria-label="Contact Us">
+      <!-- Wave divider top -->
+      <div class="wave-divider contact-wave" aria-hidden="true">
+        <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+          <path d="M0,60 C240,120 480,0 720,60 C960,120 1200,0 1440,60 L1440,120 L0,120 Z" fill="currentColor"/>
+        </svg>
+      </div>
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Get In Touch</span>
+          <h2 class="section-title">Contact <span>Us</span></h2>
+          <p class="section-subtitle">
+            Have questions, ideas, or want to collaborate? We'd love to hear from you.
+          </p>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-form-wrapper reveal">
+            <form class="contact-form" id="contactForm" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="ctName">Your Name <span>*</span></label>
+                  <input type="text" id="ctName" name="name" placeholder="John Doe" required>
+                </div>
+                <div class="form-group">
+                  <label for="ctEmail">Your Email <span>*</span></label>
+                  <input type="email" id="ctEmail" name="email" placeholder="john@example.com" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="ctSubject">Subject</label>
+                <input type="text" id="ctSubject" name="subject" placeholder="How can we help?">
+              </div>
+              <div class="form-group">
+                <label for="ctMessage">Message <span>*</span></label>
+                <textarea id="ctMessage" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-block">
+                <i class="fa-solid fa-paper-plane"></i> Send Message
+              </button>
+            </form>
+          </div>
+          <div class="contact-info reveal">
+            <div class="contact-info-card">
+              <div class="contact-icon"><i class="fa-solid fa-phone-volume"></i></div>
+              <div>
+                <h4>Phone</h4>
+                <p>+91 98765 43210</p>
+                <p>+91 12345 67890</p>
+              </div>
+            </div>
+            <div class="contact-info-card">
+              <div class="contact-icon"><i class="fa-solid fa-envelope-open-text"></i></div>
+              <div>
+                <h4>Email</h4>
+                <p>hello@inamigos.org</p>
+                <p>volunteer@inamigos.org</p>
+              </div>
+            </div>
+            <div class="contact-info-card">
+              <div class="contact-icon"><i class="fa-solid fa-map-location-dot"></i></div>
+              <div>
+                <h4>Address</h4>
+                <p>42, Community Hope Street,</p>
+                <p>Green Valley, Mumbai — 400001</p>
+              </div>
+            </div>
+            <div class="contact-social">
+              <h4>Follow Us</h4>
+              <div class="social-icons">
+                <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" aria-label="Twitter / X"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Google Map Embed -->
+        <div class="contact-map reveal">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.954456789012!2d72.8258373!3d19.0759837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTnCsDA0JzMzLjUiTiA3MsKwNDknMzMuMCJF!5e0!3m2!1sen!2sin!4v1699999999999"
+            width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade" title="InAmigos Office Location">
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== 10. FOOTER ==================== -->
+  <footer class="footer" id="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col footer-about">
+          <a href="#hero" class="footer-logo">In<span>Amigos</span></a>
+          <p>Together we create change. InAmigos is a registered non-profit organization dedicated to uplifting communities through education, healthcare, environment, and empowerment.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" aria-label="Twitter / X"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#hero"><i class="fa-solid fa-chevron-right"></i> Home</a></li>
+            <li><a href="#about"><i class="fa-solid fa-chevron-right"></i> About Us</a></li>
+            <li><a href="#projects"><i class="fa-solid fa-chevron-right"></i> Our Projects</a></li>
+            <li><a href="#gallery"><i class="fa-solid fa-chevron-right"></i> Gallery</a></li>
+            <li><a href="#volunteer"><i class="fa-solid fa-chevron-right"></i> Become a Volunteer</a></li>
+            <li><a href="#contact"><i class="fa-solid fa-chevron-right"></i> Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact Info</h4>
+          <ul class="footer-contact-list">
+            <li><i class="fa-solid fa-location-dot"></i> 42, Community Hope Street, Green Valley, Mumbai — 400001</li>
+            <li><i class="fa-solid fa-phone"></i> +91 98765 43210</li>
+            <li><i class="fa-solid fa-envelope"></i> hello@inamigos.org</li>
+            <li><i class="fa-solid fa-clock"></i> Mon — Sat: 9:00 AM — 6:00 PM</li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Newsletter</h4>
+          <p>Stay updated with our latest initiatives and impact stories.</p>
+          <form class="newsletter-form" id="newsletterForm">
+            <div class="newsletter-input">
+              <input type="email" placeholder="Your email address" required aria-label="Newsletter email">
+              <button type="submit" aria-label="Subscribe"><i class="fa-solid fa-paper-plane"></i></button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 <strong>InAmigos Foundation</strong>. All rights reserved. | Registered Non-Profit Organization</p>
+        <p class="footer-slogan">Together We Create Change ❤️</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== SCRIPTS ==================== -->
+  <script src="js/script.js" defer></script>
+</body>
+</html>
