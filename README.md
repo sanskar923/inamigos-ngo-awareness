@@ -20,7 +20,7 @@ A modern, single-page NGO awareness website for the **InAmigos Foundation** — 
 
 ## 🚀 Live Demo
 
-The site is deployed on **Netlify**. Visit the live deployment or run it locally (see [Getting Started](#getting-started)).
+The site is deployed on **Netlify**. Visit the live deployment or run it locally (see [Getting Started](https://6a19d0b32db8a2556e899a32--gleeful-lebkuchen-5b75bc.netlify.app/)).
 
 ---
 
